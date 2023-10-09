@@ -8,35 +8,24 @@
   <a href="#memo-licença">Licença</a>
 </p> -->
 
-# NLW - Spacetime
+# NLW - AI
 
-Bem-vindo(a) à Cápsula do Tempo (Spacetime), um projeto que permite armazenar e reviver suas memórias e lembranças especiais.
+Bem-vindo(a) ao Upload AI, um projeto que gera automaticamente título e descrições de vídeos para o YouTube utilizando Inteligência Artificial.
 
 ## ⌛ Descrição
 
-A Cápsula do Tempo é uma aplicação web e mobile que permite aos usuários armazenar e visualizar suas memórias e lembranças. O projeto foi desenvolvido utilizando NextJS para o front-end, Node.js com Fastify para o back-end e React Native para a versão mobile. Os usuários podem fazer login utilizando suas contas do GitHub, acessar todas as suas memórias existentes e cadastrar novas memórias. 
+A Upload AI é uma aplicação web que ajuda criadores de conteúdo a gerarem automaticamente títulos e descrições chamativas para seus vídeos. O projeto foi desenvolvido utilizando ReactJS para o front-end e Node.js com Fastify para o back-end. A transformação do vídeo mp4 para mp3 se dá através do FFMPEG utilizando o WebAssembly. Além disso, há uma integração com a OpenAI para utilizar os recursos da inteligência artificial.
 
-Esse projeto faz parte da NLW Spacetime trilha Ignite, promovido pela RocketSeat em Maio de 2023.
+Esse projeto faz parte da NLW AI trilha Mastery, promovido pela RocketSeat em Setembro de 2023.
 
 
 ## 🚀 Principais Funcionalidades
 
-- Login via GitHub para autenticação segura.
-- Visualização de todas as memórias cadastradas pelo usuário.
-- Cadastro de novas memórias, incluindo texto e fotos.
+- Upload de vídeos;
+- Conversão de vídeos .mp4 para áudios .mp3;
+- Transcrição do áudio .mp3 gerado através da OpenAI;
+- Geração de títulos e descrições da transcrição através da OpenAI;
 
-## ⏰ Futuras Funcionalidades
-
-- Página de exibição de cada memória
-- Edição da memória
-- Layout Responsivo para a Web
-- Personalização da data e hora da memória
-- Compartilhamento de memórias com amigos e familiares.
-- Pesquisa avançada para encontrar memórias específicas, através de palavra-chave ou filtros (por data, por localização, pessoas envolvidas)
-- Notificações e lembretes para eventos importantes.
-- Suporte a outros métodos de login: Google, Facebook e Twitter
-- Marcar outras pessoas na memória
-- Possibilitar a adição de vídeos na memória
 
 ## ⚠️ Requisitos para a instalação
 ```
@@ -91,26 +80,13 @@ yarn install
 yarn dev
 ```
 
-### Para rodar o projeto mobile
-1 - Para instalar as dependências do projeto:
-```
-yarn install
-```
-2 - Para rodar o projeto:
-```
-yarn start
-```
-
 
 ## 👀 Observações
 - Caso queria rodar o projeto na sua máquina, entre em contato comigo: joao.devweb@gmail.com
 - Será necessário a configuração do projeto no Developer Settings do Github. Essas configuração são passadas pelas variáveis de ambiente.
-- Será necessário que você troque o IP da máquina que foi informado para que fique de acordo com o IP da sua máquina
 
 
-## 🎨 Layout:
 
-[Clique aqui para ver o layout no Figma](https://www.figma.com/file/SQjBMLyKfKzjnJEqsiktnA/C%C3%A1psula-do-tempo-%E2%80%A2-Trilha-Ignite-(Community)-(Copy)?type=design&node-id=205-85&t=xSXbdBQdBr0taKsR-0)
 
 ## :memo: Licença
 
